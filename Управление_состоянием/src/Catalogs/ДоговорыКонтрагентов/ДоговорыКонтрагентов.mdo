@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b579f4f-9183-41d0-9be2-f3db4ef07482">
+  <producedTypes>
+    <objectType typeId="fa1d33f2-7ea3-4c09-9c34-561195d39ad1" valueTypeId="11b0f077-6bfc-4cd0-a23d-466b18696b3a"/>
+    <refType typeId="6731d85a-8eaa-4caf-9651-989fe9412b15" valueTypeId="3b86e951-d065-4299-ab30-91b62adde700"/>
+    <selectionType typeId="1917fcd0-a164-46a1-b799-56128c298c60" valueTypeId="b8752f05-0f6e-4df0-b3f9-03b83e005c16"/>
+    <listType typeId="f5d5cc50-4011-4637-a0d3-9e2e17caf16e" valueTypeId="151e875d-3e30-41f6-b6a9-300805a0aa97"/>
+    <managerType typeId="c912b268-8baf-4a1c-b7bd-05e6a0ec1ce4" valueTypeId="0213a731-2906-4d24-a84c-b7bbc88514e6"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДоговорыКонтрагентов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДоговорыКонтрагентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="94af3a64-adfb-42ba-a4b7-4397cfec1216">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b107b8b2-2ad5-4e29-8a9c-d3026b1208fd">
+    <producedTypes>
+      <objectType typeId="615ea8cc-37c4-4c70-8125-b477c9a8c7e4" valueTypeId="fc2fb72a-da36-4bc9-9a45-4f560a294f48"/>
+      <rowType typeId="56342920-0805-4747-a24b-f844a469719d" valueTypeId="43aea0b3-5b3d-4499-b8e6-fd137e6ce87c"/>
+    </producedTypes>
+    <name>Стороны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стороны</value>
+    </synonym>
+    <attributes uuid="e1298627-3c9f-4fe7-b6a5-2303ed8a266e">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f84a9204-845a-4e8f-aaf3-f06f88feea58">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="541163d1-30d7-4a1a-983e-dc17e3906523">
+    <producedTypes>
+      <objectType typeId="83b56cd9-db2e-4c57-bb08-80585f938be7" valueTypeId="0abe25e4-8164-41db-a137-5b41e58a5748"/>
+      <rowType typeId="dd5f11fa-b111-4a0a-9659-98b5dc1e9283" valueTypeId="8a6ce78d-566b-42eb-8e27-10e2540330f0"/>
+    </producedTypes>
+    <name>Бюджетирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджетирование</value>
+    </synonym>
+    <attributes uuid="d2ab0a5b-af3f-4a8b-b823-132400af43db">
+      <name>ОбъектИнвестирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект инвестирования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОбъектыИнвестирования</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d662cfc-bee5-406c-b462-182377e3c251">
+      <name>СтатьяДДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья ДДС</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДДС</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c41d84ca-e050-4f68-8232-af9bd000a735">
+  <producedTypes>
+    <objectType typeId="73a3103c-7530-4343-8152-fcb4a8f367fb" valueTypeId="82b7bbaa-f673-46fb-b07d-81d5d5d2f76d"/>
+    <refType typeId="905e5b24-5fdd-4822-ba41-5bf176f30c0a" valueTypeId="e03d2d26-6fb0-434a-af3f-87c7a5e8764a"/>
+    <selectionType typeId="4b1f3b15-0039-4633-b6bc-837599f97f36" valueTypeId="4b5a692b-8354-4925-9ebe-6a8d1798a71d"/>
+    <listType typeId="b23b2876-9a14-4dae-bd3b-4375e08e578f" valueTypeId="924301c7-5daf-41e8-8144-da506e5df075"/>
+    <managerType typeId="590ef168-8d1f-4fa0-9ad7-4430e2ac5463" valueTypeId="dfeae825-b17c-471b-bdc5-88e82aa9f4f1"/>
+  </producedTypes>
+  <name>СтатьиДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДДС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьиДДС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="14c3f6be-8ca5-4b87-9a35-729c3857cc66">
+    <name>ПриходРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход расход</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПриходРасход</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ac9bdf99-0e5a-4665-8ac2-5cd9d11f02fe">
+    <producedTypes>
+      <objectType typeId="4564c92f-b00e-4039-a2e5-dbcdc9227e19" valueTypeId="6633e14f-bd17-4afb-9bb0-44af13d30a03"/>
+      <rowType typeId="eedaae6b-1ba2-4ead-bfd2-ee849a7a3af7" valueTypeId="f4d7461c-8962-4734-a5e5-8a544b2d297d"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <attributes uuid="93f139d8-97d2-4431-b0f3-a9a82f67f32b">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="285ef726-b106-463e-bb83-828eed97b4a6">
+    <producedTypes>
+      <objectType typeId="7548522c-2e82-4275-adc2-fda95c63c354" valueTypeId="c108b9cb-588a-452f-a928-53ad526a0f36"/>
+      <rowType typeId="832c3850-dd1b-4269-9c6e-c497a54e46bd" valueTypeId="6bcfbde6-9017-4af5-9a37-5f96f210ae00"/>
+    </producedTypes>
+    <name>ВидыБюджетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды бюджетов</value>
+    </synonym>
+    <attributes uuid="ceec7449-898f-4b6c-a312-07372296a6fa">
+      <name>ВидБюджета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид бюджета</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыБюджетов</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

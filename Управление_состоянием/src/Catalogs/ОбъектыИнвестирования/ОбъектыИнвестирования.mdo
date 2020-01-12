@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="344e6476-277c-46ae-942d-272e4cba3184">
+  <producedTypes>
+    <objectType typeId="d1ce51b7-63c2-4fdc-aa41-1c4a769d3aa1" valueTypeId="29833892-011c-4ff9-b096-22ba2f0dfd09"/>
+    <refType typeId="90d5a9bf-774b-4ebd-adf4-04db786d2194" valueTypeId="9e05379a-1f1b-4a35-845a-41136e96608d"/>
+    <selectionType typeId="0f4ffe64-c38c-4ab3-9bd4-2eb16e90c5ce" valueTypeId="35ba4aca-95b5-4f5f-b730-7aefec4fc9be"/>
+    <listType typeId="aeae8a41-bf19-4028-b6f5-90434ec3440b" valueTypeId="59b23af7-e15e-4df4-bcc8-79c0348d258c"/>
+    <managerType typeId="7b6d73de-a404-4f35-bde3-0841f30d180e" valueTypeId="e1407cf8-3a83-48e1-a45e-319b3c2ca47e"/>
+  </producedTypes>
+  <name>ОбъектыИнвестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты инвестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбъектыИнвестирования.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОбъектыИнвестирования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

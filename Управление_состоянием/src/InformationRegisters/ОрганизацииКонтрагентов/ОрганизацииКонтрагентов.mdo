@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="521d6dfe-53e8-4ab7-9bc6-bb155edd38ed">
+  <producedTypes>
+    <selectionType typeId="77d62f9b-e20a-41be-88ef-ab6c6a040bde" valueTypeId="10ba8d3b-c9b1-49b0-a771-502cd3abc043"/>
+    <listType typeId="56bcc19c-9b64-4ba5-b62f-b9787b0ea413" valueTypeId="afbc47dc-478b-453f-8fca-de1ce4b4702b"/>
+    <managerType typeId="1ff40cda-a280-4223-8d56-a4c078e7a8ca" valueTypeId="b1983c3e-ae83-4d64-b003-3bee109adb3b"/>
+    <recordSetType typeId="6047c6ba-9826-410a-94a0-e34b07b0d490" valueTypeId="cd3fc758-07ed-4824-bf94-6306f566021b"/>
+    <recordKeyType typeId="296a1c0e-db39-47a0-8a2c-f3e4e2643dfe" valueTypeId="aa8d9600-a7f2-4f33-9159-fccb06ed5d49"/>
+    <recordType typeId="5418342a-3e20-4ff0-97ae-08853944cfe0" valueTypeId="ea9d2ac1-2e2e-4d6b-a344-136496d2bfc7"/>
+    <recordManagerType typeId="c19f97bb-ece4-4323-8b47-555b9decf6b4" valueTypeId="0b4d6be1-f97e-40db-a737-26c929419d8f"/>
+  </producedTypes>
+  <name>ОрганизацииКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="0d22f000-3056-4905-8227-5c298ffb5018">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="969db60a-bbfe-4695-8738-0aae3c213f2e">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment>Окончание действия вкл.</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="81d260c7-f8fd-4e2d-8318-cf02602ec1a3">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

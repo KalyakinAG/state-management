@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b56eb6c4-8a56-4b4f-89f5-d962943de9c1">
+  <producedTypes>
+    <refType typeId="be9a2f02-7a83-4339-a11d-cd141b28b1e4" valueTypeId="1e149b75-452d-469f-ba44-a2cbbed07c71"/>
+    <listType typeId="95551a75-887b-4add-a9f2-2a57d7ddb7bf" valueTypeId="82c80da7-dd56-4455-96ed-1a629a9b5677"/>
+    <managerType typeId="a95588c5-fc51-46b2-bd5c-324c8a585f51" valueTypeId="c685dcd6-4c67-4010-9a5d-00cb121a2528"/>
+  </producedTypes>
+  <name>ТипыОперацийБюжетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы операций бюжетирование</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

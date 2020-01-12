@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9062d0a-f417-4a20-8a6e-efe4cf540cdb">
+  <name>Демо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Организации</content>
+  <content>InformationRegister.ОрганизацииКонтрагентов</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ВидыБюджетов</content>
+  <content>Catalog.ВидыОперацийБюджетирование</content>
+  <content>Catalog.ОбъектыИнвестирования</content>
+  <content>Catalog.СтатьиДДС</content>
+  <content>Document.ЗаявкаНаОперацию</content>
+  <content>Enum.ПриходРасход</content>
+  <content>Enum.ТипыОперацийБюжетирование</content>
+  <content>CommonModule.МодельЗаявкаНаОперацию</content>
+  <content>Enum.ВидыДенежныхСредств</content>
+  <content>Catalog.Банки</content>
+</mdclass:Subsystem>

@@ -34,6 +34,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.УправлениеСостоянием</subsystems>
+  <subsystems>Subsystem.Демо</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</styleItems>
@@ -200,17 +202,17 @@
   <roles>Role.ЧтениеВнешнихПользователей</roles>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
-  <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
-  <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
-  <commonModules>CommonModule.ВнешниеПользователи</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
-  <commonModules>CommonModule.ДлительныеОперации</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
-  <commonModules>CommonModule.ДлительныеОперацииВызовСервера</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
+  <commonModules>CommonModule.ВнешниеПользователи</commonModules>
+  <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
+  <commonModules>CommonModule.ДлительныеОперации</commonModules>
+  <commonModules>CommonModule.ДлительныеОперацииВызовСервера</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииГлобальный</commonModules>
+  <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
   <commonModules>CommonModule.ЖурналРегистрации</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.ЖурналРегистрацииКлиент</commonModules>
@@ -218,6 +220,9 @@
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанных</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
+  <commonModules>CommonModule.МодельЗаявкаНаОперацию</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиент</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиентСервер</commonModules>
   <commonModules>CommonModule.МультиязычностьПереопределяемый</commonModules>
@@ -233,6 +238,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебный</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыУС</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
@@ -243,6 +249,8 @@
   <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.Общий</commonModules>
+  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
   <commonModules>CommonModule.ПодсистемыКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиент</commonModules>
@@ -252,6 +260,13 @@
   <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСДаннымиВыбора</commonModules>
+  <commonModules>CommonModule.РаботаСДаннымиВыбораПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСМоделью</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСоСхемойЗапроса</commonModules>
+  <commonModules>CommonModule.РаботаСФормой</commonModules>
+  <commonModules>CommonModule.РаботаСФормойКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентированныеДанныеКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыВызовСервера</commonModules>
@@ -269,7 +284,6 @@
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбновлениеИнформационнойБазыУС</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -360,16 +374,30 @@
   <commonForms>CommonForm.РедактированиеТабличногоДокумента</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
   <commonForms>CommonForm.СравнениеТабличныхДокументов</commonForms>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
+  <catalogs>Catalog.ВидыБюджетов</catalogs>
+  <catalogs>Catalog.ВидыОперацийБюджетирование</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ОбъектыИнвестирования</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтатьиДДС</catalogs>
+  <documents>Document.ЗаявкаНаОперацию</documents>
   <enums>Enum.СпособыРедактированияЭлектронныхПисем</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <enums>Enum.ПриходРасход</enums>
+  <enums>Enum.ТипыОперацийБюжетирование</enums>
+  <enums>Enum.ВидыДенежныхСредств</enums>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
@@ -388,4 +416,5 @@
   <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
   <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.ОрганизацииКонтрагентов</informationRegisters>
 </mdclass:Configuration>

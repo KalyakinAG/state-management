@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26937855-f7c6-40ec-a6c5-3625a7dad371">
+  <name>УправлениеСостоянием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление состоянием</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РаботаСФормой</content>
+  <content>CommonModule.РаботаСФормойКлиентСервер</content>
+  <content>CommonModule.РаботаСДаннымиВыбораПовтИсп</content>
+  <content>CommonModule.КомпоновкаДанныхКлиентСервер</content>
+  <content>CommonModule.КомпоновкаДанных</content>
+  <content>CommonModule.РаботаСоСхемойЗапроса</content>
+  <content>CommonModule.РаботаСДаннымиВыбора</content>
+  <content>CommonModule.РаботаСМодельюКлиентСервер</content>
+  <content>CommonModule.РаботаСМоделью</content>
+  <content>CommonModule.ОбщийКлиентСервер</content>
+  <content>CommonModule.Общий</content>
+</mdclass:Subsystem>

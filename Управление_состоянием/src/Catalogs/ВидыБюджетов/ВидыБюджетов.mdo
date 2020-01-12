@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d318ace9-7120-44d9-831e-571ff1b57679">
+  <producedTypes>
+    <objectType typeId="da0c3ada-aab0-40ea-8df8-79ae94a79fda" valueTypeId="a2d05b43-019f-4455-9208-0026e0cd44c1"/>
+    <refType typeId="ef95e11a-d865-4333-8bba-306e1fdf34d6" valueTypeId="de45ce55-1f48-4671-8c69-a3105c8c5ac7"/>
+    <selectionType typeId="4866fda2-d875-4580-96e7-da1a84297918" valueTypeId="65a2a2fb-40ea-482a-9140-89d634c89dd1"/>
+    <listType typeId="bac71afd-bf12-4af7-a80c-20a1509bf50b" valueTypeId="58d56ce2-1ce8-43c3-b1a2-b450d4a24ae6"/>
+    <managerType typeId="e7181157-66cc-4fab-a722-511c783e420b" valueTypeId="d2bf23fd-7f13-4f56-a2c3-6f4d8f55b9d9"/>
+  </producedTypes>
+  <name>ВидыБюджетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды бюджетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыБюджетов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыБюджетов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cdad795e-91a4-4be4-97f7-9f729d7894a3">
+      <name>ОХР</name>
+      <description>ОХР</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="09052454-934b-4522-bfd0-91e9088211b3">
+      <name>Инвестиционный</name>
+      <description>Инвестиционный</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="46d0cb73-e0c2-406a-afaa-8461994c48e1">
+      <name>Налоговый</name>
+      <description>Налоговый</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

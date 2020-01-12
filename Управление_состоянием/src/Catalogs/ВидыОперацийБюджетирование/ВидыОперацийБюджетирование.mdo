@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a77e21fa-16ac-45d3-ad68-0ad5746ddf45">
+  <producedTypes>
+    <objectType typeId="4b3c369c-f25f-43ef-96c7-0f4d6e87fcce" valueTypeId="5f42236a-5188-4e84-a740-c33a3b929053"/>
+    <refType typeId="762ee45f-a398-4fc1-b78b-6373abcb1d81" valueTypeId="da606245-977b-44e4-abad-5f0a89cfb5c5"/>
+    <selectionType typeId="372452df-9b8c-4923-851b-cd84222e76ea" valueTypeId="0df31e13-0420-4a7c-bc54-bea8d324b5dd"/>
+    <listType typeId="06dc614b-09e5-4482-9b67-4f9ed8fb5dcf" valueTypeId="75d7e2cd-bf87-40d6-9450-e5a3a0bb0efb"/>
+    <managerType typeId="10dd482e-126e-4165-b8f1-f6cf33a5f4a0" valueTypeId="0b88c6c2-d219-413a-9c6b-e1e2e469dd9f"/>
+  </producedTypes>
+  <name>ВидыОперацийБюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций бюджетирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОперацийБюджетирование.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыОперацийБюджетирование.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9bed214b-eba2-429b-9530-5aad2bb4a614">
+    <name>ПриходРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход расход</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПриходРасход</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48dcd53d-16c6-4a33-b5eb-60d9f98f6fe2">
+    <name>ТипОперацииБюжетирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип операции бюжетирование</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыОперацийБюжетирование</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
