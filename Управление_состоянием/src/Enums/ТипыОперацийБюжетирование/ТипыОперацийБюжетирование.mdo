@@ -12,4 +12,41 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="947807b0-9c85-4498-9129-71ce9994eb95">
+    <name>РасчетыСКонтрагентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с контрагентами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45fdef58-975f-4158-a850-4467835c7624">
+    <name>ВнутриГрупповоеПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение средств внутри группы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1b1bd06-5dd6-4147-824c-11da5a5ac36a">
+    <name>РасчетыПоНалогамИСборам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по налогам и сборам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="38b2e22b-f368-44d7-ad91-d4dd6f2770cf">
+    <name>РасчетыПоЗаработнойПлате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по заработной плате</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="42080e50-3a17-4b2c-93c9-03b0c52124c6">
+    <name>КонвертацияВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация валюты</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

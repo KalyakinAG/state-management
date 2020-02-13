@@ -43,10 +43,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="48dcd53d-16c6-4a33-b5eb-60d9f98f6fe2">
-    <name>ТипОперацииБюжетирование</name>
+    <name>ТипОперацииБюджетирование</name>
     <synonym>
       <key>ru</key>
-      <value>Тип операции бюжетирование</value>
+      <value>Тип операции бюджетирование</value>
     </synonym>
     <type>
       <types>EnumRef.ТипыОперацийБюжетирование</types>

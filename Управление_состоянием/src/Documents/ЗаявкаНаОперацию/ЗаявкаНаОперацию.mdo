@@ -30,7 +30,7 @@
     <name>ВалютаВзаиморасчетов</name>
     <synonym>
       <key>ru</key>
-      <value>Валюта взаиморасчетов</value>
+      <value>Валюта расчетов</value>
     </synonym>
     <type>
       <types>CatalogRef.Валюты</types>
@@ -63,10 +63,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="13f9ac1f-6fa2-43c2-928d-c71b7565e160">
-    <name>ВидДенежныхСредств</name>
+    <name>ФормаОплаты</name>
     <synonym>
       <key>ru</key>
-      <value>Вид денежных средств</value>
+      <value>Форма оплаты</value>
     </synonym>
     <type>
       <types>EnumRef.ВидыДенежныхСредств</types>
@@ -255,6 +255,42 @@
     </synonym>
     <type>
       <types>EnumRef.ТипыОперацийБюжетирование</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3bca8673-f837-40a3-af7a-64c88b3d9469">
+    <name>КонтрагентРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент расчетов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed95ab4f-1922-417c-a359-e0d220cbbc32">
+    <name>ДоговорРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор расчетов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1cdf035c-6119-4064-b00d-43a51cb074a7">
+    <name>РасчетыЧерезТретьихЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты через третьих лиц</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
