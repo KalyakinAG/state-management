@@ -23,4 +23,5 @@
   <content>CommonModule.МодельЗаявкаНаОперацию</content>
   <content>Enum.ВидыДенежныхСредств</content>
   <content>Catalog.Банки</content>
+  <content>InformationRegister.КурсыВалют</content>
 </mdclass:Subsystem>

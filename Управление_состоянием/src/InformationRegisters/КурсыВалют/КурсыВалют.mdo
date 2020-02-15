@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16005b54-3bb6-4b00-825f-b385b471014b">
+  <producedTypes>
+    <selectionType typeId="f0da462d-ce23-41bc-9af2-eb13d2855cad" valueTypeId="93c69212-947d-4d0b-a552-33f4ab72bc80"/>
+    <listType typeId="b40ba403-565c-468a-848c-fd0b17de9682" valueTypeId="d400cb16-4813-4a56-bfdf-da34cad9387a"/>
+    <managerType typeId="d9051e58-a99f-4a8b-ab9e-77f6c50674ec" valueTypeId="bd68df27-68ab-4db7-b0bf-359966488308"/>
+    <recordSetType typeId="4ecd034b-8fa5-45b2-af4e-c6a3795aed38" valueTypeId="d9a0520a-1d56-4337-a2f7-87c35438f6ed"/>
+    <recordKeyType typeId="d3c9dbd2-4efd-49f6-9fdc-bc1a6cd37d92" valueTypeId="94cb8f76-50d7-4bea-9a34-c212e667ade7"/>
+    <recordType typeId="0c9fbb0f-9dad-42b7-9043-b1201cb48871" valueTypeId="13838418-7a78-4f44-8525-86a9891ec363"/>
+    <recordManagerType typeId="15a4f810-6fce-4250-b8de-9333ea72d5b3" valueTypeId="2a423034-ee09-4630-bad7-bfbf78ebb723"/>
+  </producedTypes>
+  <name>КурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4400dd2e-e5e0-44e8-964e-2c3f2efd4456">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="d9d88f0c-6d13-4571-8beb-4f72b02db7f1">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

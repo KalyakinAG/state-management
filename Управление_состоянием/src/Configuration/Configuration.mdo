@@ -419,4 +419,5 @@
   <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ОрганизацииКонтрагентов</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
 </mdclass:Configuration>
