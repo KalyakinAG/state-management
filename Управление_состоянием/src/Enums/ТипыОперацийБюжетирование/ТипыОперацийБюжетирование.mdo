@@ -49,4 +49,11 @@
       <value>Конвертация валюты</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="2cf17332-e1e3-4213-a7b8-796431aaa7b8">
+    <name>ПеремещениеМеждуМестамиХраненияСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение средств внутри организации</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
