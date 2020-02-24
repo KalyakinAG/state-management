@@ -18,4 +18,5 @@
   <content>CommonModule.РаботаСМоделью</content>
   <content>CommonModule.ОбщийКлиентСервер</content>
   <content>CommonModule.Общий</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыУС</content>
 </mdclass:Subsystem>
