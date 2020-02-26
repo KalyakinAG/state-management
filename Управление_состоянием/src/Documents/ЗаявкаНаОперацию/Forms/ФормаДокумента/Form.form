@@ -287,10 +287,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ДатаНачала</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ДатаНачалаПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ДатаНачалаРасширеннаяПодсказка</name>
         <id>105</id>
@@ -2305,7 +2301,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2374,6 +2369,14 @@
     <handlers>
       <event>ValueChoice</event>
       <name>ВыборЗначения</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
