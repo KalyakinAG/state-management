@@ -24,4 +24,8 @@
   <content>Enum.ВидыДенежныхСредств</content>
   <content>Catalog.Банки</content>
   <content>InformationRegister.КурсыВалют</content>
+  <content>DataProcessor.ЗвездныйРейтинг</content>
+  <content>CommonModule.МодельЗвездныйРейтинг</content>
+  <content>InformationRegister.РейтингБанков</content>
+  <content>DataProcessor.ЗвездныйРейтингБанков</content>
 </mdclass:Subsystem>

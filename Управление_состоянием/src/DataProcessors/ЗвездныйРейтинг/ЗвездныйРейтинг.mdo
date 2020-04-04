@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="962446ef-3f6d-4a3c-911a-9c3c64b8eac0">
+  <producedTypes>
+    <objectType typeId="cbd94258-6a51-40bc-b56f-f9a2984f7a07" valueTypeId="1de6e272-28ed-4bab-971d-92dff9dbfd88"/>
+    <managerType typeId="f23cdc49-6941-44c8-9687-292f99840e5e" valueTypeId="09f6c843-5118-4618-958a-119cd477ca6a"/>
+  </producedTypes>
+  <name>ЗвездныйРейтинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Звездный рейтинг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗвездныйРейтинг.Form.Форма</defaultForm>
+  <attributes uuid="eff9057a-7d5d-4dbc-abac-d697f49c6d77">
+    <name>Рейтинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <forms uuid="9672d023-3bcb-46af-96a8-9b943dd112bf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

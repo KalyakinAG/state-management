@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9feefe5a-204b-4d77-b323-cbd3ece24b34">
+  <producedTypes>
+    <selectionType typeId="ad49f643-b2d7-43e9-b488-96ccd6e482c4" valueTypeId="77a6b7ef-a882-4206-9e08-8dff979384b2"/>
+    <listType typeId="0a2635bc-94dc-4f74-ab5e-e778d6224f97" valueTypeId="5d454ecc-f568-4d1a-94e9-d0eac7ef80eb"/>
+    <managerType typeId="dcb73689-9c7e-4b3b-80c3-032422bfb665" valueTypeId="b040eee9-d316-48f0-b8f1-42c4c0551cf0"/>
+    <recordSetType typeId="752c4fc0-4cc3-44d2-b67c-2b7b0aaa10a7" valueTypeId="bb97a142-5808-48c5-b899-1d1030db38f8"/>
+    <recordKeyType typeId="f81653b1-4637-4d64-87a7-f58adaa55877" valueTypeId="1f114219-e8ef-4e55-adb9-9dd901aa76f9"/>
+    <recordType typeId="802a4641-00c4-4231-85b2-4a8e9a5f2961" valueTypeId="a7591937-d9bc-4f33-a307-aa23794e9c94"/>
+    <recordManagerType typeId="d7d81d84-d3ae-4cad-ad1e-4dda131e6503" valueTypeId="984ca3d0-376c-414b-90dc-adefde472f19"/>
+  </producedTypes>
+  <name>РейтингБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинг банков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f0a423b8-d7b5-44f4-a29f-80b9358d20bb">
+    <name>Рейтинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="724e7679-dbcd-4715-a807-5520a930a169">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

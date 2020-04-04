@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9362fcb-b334-418c-a620-fff333bc7fc3">
+  <name>МодельЗвездныйРейтинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель звездный рейтинг</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>
