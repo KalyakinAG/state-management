@@ -19,4 +19,5 @@
   <content>CommonModule.ОбщийКлиентСервер</content>
   <content>CommonModule.Общий</content>
   <content>CommonModule.ОбновлениеИнформационнойБазыУС</content>
+  <content>CommonForm.НастройкиДинамическогоСписка</content>
 </mdclass:Subsystem>

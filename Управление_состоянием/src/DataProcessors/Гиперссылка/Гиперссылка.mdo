@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b903a5a2-0d26-46ea-9979-8548101eeab3">
+  <producedTypes>
+    <objectType typeId="57ffdec1-570b-49d4-acb3-067e1981b8c7" valueTypeId="250ec540-0c2a-48d0-9a62-de8fa89a7866"/>
+    <managerType typeId="765e1ff8-4b55-473d-a392-f37956828767" valueTypeId="aa2cc169-0b20-4022-a80e-24434421017a"/>
+  </producedTypes>
+  <name>Гиперссылка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гиперссылка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Гиперссылка.Form.Форма</defaultForm>
+  <attributes uuid="834da3a1-917a-40de-8f03-05f3d3140049">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <forms uuid="e083745e-49d2-456c-9018-f635fcdb9f7c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

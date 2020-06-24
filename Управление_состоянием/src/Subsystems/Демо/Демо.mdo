@@ -28,4 +28,10 @@
   <content>CommonModule.МодельЗвездныйРейтинг</content>
   <content>InformationRegister.РейтингБанков</content>
   <content>DataProcessor.ЗвездныйРейтингБанков</content>
+  <content>DataProcessor.НалоговыеРеквизиты</content>
+  <content>CommonModule.МодельНалоговыеРеквизиты</content>
+  <content>DataProcessor.НалоговыеРеквизиты2</content>
+  <content>DataProcessor.Гиперссылка</content>
+  <content>CommonModule.МодельГиперссылка</content>
+  <content>CommonForm.НастройкиДинамическогоСписка</content>
 </mdclass:Subsystem>

@@ -18,14 +18,15 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <version>1.0.0.10</version>
+  <version>1.0.0.11</version>
+  <defaultDynamicListSettingsForm>CommonForm.НастройкиДинамическогоСписка</defaultDynamicListSettingsForm>
   <defaultStyle>Style.QP_ОС_Стиль_Темный</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.14</compatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="24d60086-59c0-4df6-91b7-d6e2e1f87b93">
     <name>Русский</name>
     <synonym>
@@ -289,6 +290,8 @@
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
+  <commonModules>CommonModule.МодельНалоговыеРеквизиты</commonModules>
+  <commonModules>CommonModule.МодельГиперссылка</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -357,11 +360,11 @@
   <constants>Constant.СведенияОбОбновленииИБ</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <commonForms>CommonForm.ВводНаРазныхЯзыках</commonForms>
-  <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>
-  <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
-  <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
+  <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
+  <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>
+  <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
   <commonForms>CommonForm.ВыборОбъектовМетаданных</commonForms>
   <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
   <commonForms>CommonForm.ВыборУзловПлановОбмена</commonForms>
@@ -369,6 +372,7 @@
   <commonForms>CommonForm.ГруппыПользователей</commonForms>
   <commonForms>CommonForm.ДлительнаяОперация</commonForms>
   <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
+  <commonForms>CommonForm.НастройкиДинамическогоСписка</commonForms>
   <commonForms>CommonForm.НовыйПароль</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийПрограммы</commonForms>
   <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
@@ -412,6 +416,9 @@
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.ЗвездныйРейтинг</dataProcessors>
   <dataProcessors>DataProcessor.ЗвездныйРейтингБанков</dataProcessors>
+  <dataProcessors>DataProcessor.НалоговыеРеквизиты</dataProcessors>
+  <dataProcessors>DataProcessor.НалоговыеРеквизиты2</dataProcessors>
+  <dataProcessors>DataProcessor.Гиперссылка</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
