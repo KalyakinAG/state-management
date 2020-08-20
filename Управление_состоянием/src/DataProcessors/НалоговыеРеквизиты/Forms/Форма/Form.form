@@ -11,8 +11,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ИдентификаторПлатежа</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ИдентификаторПлатежа</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИдентификаторПлатежаРасширеннаяПодсказка</name>
@@ -61,8 +63,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КодБК</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.КодБК</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КодБКРасширеннаяПодсказка</name>
@@ -111,8 +115,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КодОКАТО</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.КодОКАТО</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КодОКАТОРасширеннаяПодсказка</name>
@@ -161,8 +167,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ПоказательДаты</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ПоказательДаты</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПоказательДатыРасширеннаяПодсказка</name>
@@ -211,8 +219,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ПоказательНомера</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ПоказательНомера</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПоказательНомераРасширеннаяПодсказка</name>
@@ -261,8 +271,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ПоказательОснования</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ПоказательОснования</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПоказательОснованияРасширеннаяПодсказка</name>
@@ -311,8 +323,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ПоказательПериода</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ПоказательПериода</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПоказательПериодаРасширеннаяПодсказка</name>
@@ -361,8 +375,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СтатусСоставителя</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.СтатусСоставителя</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СтатусСоставителяРасширеннаяПодсказка</name>
@@ -441,7 +457,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -456,16 +472,16 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>

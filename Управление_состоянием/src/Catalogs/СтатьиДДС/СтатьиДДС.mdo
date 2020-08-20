@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c41d84ca-e050-4f68-8232-af9bd000a735">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c41d84ca-e050-4f68-8232-af9bd000a735">
   <producedTypes>
     <objectType typeId="73a3103c-7530-4343-8152-fcb4a8f367fb" valueTypeId="82b7bbaa-f673-46fb-b07d-81d5d5d2f76d"/>
     <refType typeId="905e5b24-5fdd-4822-ba41-5bf176f30c0a" valueTypeId="e03d2d26-6fb0-434a-af3f-87c7a5e8764a"/>
@@ -39,6 +39,9 @@
     <type>
       <types>EnumRef.ПриходРасход</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -61,6 +64,8 @@
       <type>
         <types>CatalogRef.Организации</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -84,6 +89,8 @@
       <type>
         <types>CatalogRef.ВидыБюджетов</types>
       </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

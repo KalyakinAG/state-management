@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="521d6dfe-53e8-4ab7-9bc6-bb155edd38ed">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="521d6dfe-53e8-4ab7-9bc6-bb155edd38ed">
   <producedTypes>
     <selectionType typeId="77d62f9b-e20a-41be-88ef-ab6c6a040bde" valueTypeId="10ba8d3b-c9b1-49b0-a771-502cd3abc043"/>
     <listType typeId="56bcc19c-9b64-4ba5-b62f-b9787b0ea413" valueTypeId="afbc47dc-478b-453f-8fca-de1ce4b4702b"/>
@@ -27,8 +27,11 @@
     <type>
       <types>CatalogRef.Организации</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="969db60a-bbfe-4695-8738-0aae3c213f2e">
     <name>ДатаОкончания</name>
@@ -43,8 +46,11 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="81d260c7-f8fd-4e2d-8318-cf02602ec1a3">
     <name>Контрагент</name>
@@ -55,8 +61,11 @@
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

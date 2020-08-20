@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9feefe5a-204b-4d77-b323-cbd3ece24b34">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9feefe5a-204b-4d77-b323-cbd3ece24b34">
   <producedTypes>
     <selectionType typeId="ad49f643-b2d7-43e9-b488-96ccd6e482c4" valueTypeId="77a6b7ef-a882-4206-9e08-8dff979384b2"/>
     <listType typeId="0a2635bc-94dc-4f74-ab5e-e778d6224f97" valueTypeId="5d454ecc-f568-4d1a-94e9-d0eac7ef80eb"/>
@@ -29,8 +29,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="724e7679-dbcd-4715-a807-5520a930a169">
     <name>Банк</name>
@@ -41,8 +44,11 @@
     <type>
       <types>CatalogRef.Банки</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

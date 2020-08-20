@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a77e21fa-16ac-45d3-ad68-0ad5746ddf45">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a77e21fa-16ac-45d3-ad68-0ad5746ddf45">
   <producedTypes>
     <objectType typeId="4b3c369c-f25f-43ef-96c7-0f4d6e87fcce" valueTypeId="5f42236a-5188-4e84-a740-c33a3b929053"/>
     <refType typeId="762ee45f-a398-4fc1-b78b-6373abcb1d81" valueTypeId="da606245-977b-44e4-abad-5f0a89cfb5c5"/>
@@ -39,6 +39,9 @@
     <type>
       <types>EnumRef.ПриходРасход</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -51,6 +54,9 @@
     <type>
       <types>EnumRef.ТипыОперацийБюжетирование</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

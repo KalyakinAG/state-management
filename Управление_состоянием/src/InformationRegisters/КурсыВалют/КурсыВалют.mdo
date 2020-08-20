@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16005b54-3bb6-4b00-825f-b385b471014b">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16005b54-3bb6-4b00-825f-b385b471014b">
   <producedTypes>
     <selectionType typeId="f0da462d-ce23-41bc-9af2-eb13d2855cad" valueTypeId="93c69212-947d-4d0b-a552-33f4ab72bc80"/>
     <listType typeId="b40ba403-565c-468a-848c-fd0b17de9682" valueTypeId="d400cb16-4813-4a56-bfdf-da34cad9387a"/>
@@ -31,8 +31,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="d9d88f0c-6d13-4571-8beb-4f72b02db7f1">
     <name>Валюта</name>
@@ -43,8 +46,11 @@
     <type>
       <types>CatalogRef.Валюты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

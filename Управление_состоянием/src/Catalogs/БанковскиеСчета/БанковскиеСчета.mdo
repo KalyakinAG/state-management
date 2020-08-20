@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0590d41f-28dd-4ef7-ba00-e77aa9ff8ffc">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0590d41f-28dd-4ef7-ba00-e77aa9ff8ffc">
   <producedTypes>
     <objectType typeId="7ccc079a-0add-43c8-ab21-c1e3fb382420" valueTypeId="353636e0-af15-4f19-b250-43c9c917e31b"/>
     <refType typeId="ef641bb7-d9f2-463e-b560-6bde6253791b" valueTypeId="521f4ff7-14aa-4111-aa0d-917ff09c8119"/>
@@ -41,6 +41,9 @@
     <type>
       <types>CatalogRef.Валюты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -56,6 +59,11 @@
         <length>30</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -68,6 +76,9 @@
     <type>
       <types>CatalogRef.Банки</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

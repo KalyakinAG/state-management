@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="962446ef-3f6d-4a3c-911a-9c3c64b8eac0">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="962446ef-3f6d-4a3c-911a-9c3c64b8eac0">
   <producedTypes>
     <objectType typeId="cbd94258-6a51-40bc-b56f-f9a2984f7a07" valueTypeId="1de6e272-28ed-4bab-971d-92dff9dbfd88"/>
     <managerType typeId="f23cdc49-6941-44c8-9687-292f99840e5e" valueTypeId="09f6c843-5118-4618-958a-119cd477ca6a"/>
@@ -24,6 +24,8 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <forms uuid="9672d023-3bcb-46af-96a8-9b943dd112bf">
     <name>Форма</name>

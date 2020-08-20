@@ -11,7 +11,8 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fed485ba-44cf-4628-ba34-28227fb62890"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0e9d5dad-51d0-4448-b20b-1d319af2088f"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9433a871-1846-49c0-9e17-18cbd6b3bd2b"/>
-  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4c3399e5-b79d-4bc2-9f88-53fd9f6b671f"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -26,7 +27,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.16</compatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="24d60086-59c0-4df6-91b7-d6e2e1f87b93">
     <name>Русский</name>
     <synonym>
@@ -84,7 +85,7 @@
   <commonPictures>CommonPicture.ЗначокЩита</commonPictures>
   <commonPictures>CommonPicture.ИерархическийСписок</commonPictures>
   <commonPictures>CommonPicture.ИзменитьШрифт</commonPictures>
-  <commonPictures>CommonPicture.Информация</commonPictures>
+  <commonPictures>CommonPicture.Информация16</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
   <commonPictures>CommonPicture.Количество</commonPictures>
