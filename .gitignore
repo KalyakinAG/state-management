@@ -1,3 +1,6 @@
 InfoBases/
 Releases/
 Bin/
+check.bat
+sonar-project.properties
+.scannerwork/

@@ -228,8 +228,11 @@
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
   <commonModules>CommonModule.КомпоновкаДанных</commonModules>
   <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
+  <commonModules>CommonModule.МодельГиперссылка</commonModules>
   <commonModules>CommonModule.МодельЗаявкаНаОперацию</commonModules>
   <commonModules>CommonModule.МодельЗвездныйРейтинг</commonModules>
+  <commonModules>CommonModule.МодельНалоговыеРеквизиты</commonModules>
+  <commonModules>CommonModule.МодельУправлениеПанелями</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиент</commonModules>
   <commonModules>CommonModule.МультиязычностьКлиентСервер</commonModules>
   <commonModules>CommonModule.МультиязычностьПереопределяемый</commonModules>
@@ -291,8 +294,6 @@
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
-  <commonModules>CommonModule.МодельНалоговыеРеквизиты</commonModules>
-  <commonModules>CommonModule.МодельГиперссылка</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -420,6 +421,7 @@
   <dataProcessors>DataProcessor.НалоговыеРеквизиты</dataProcessors>
   <dataProcessors>DataProcessor.НалоговыеРеквизиты2</dataProcessors>
   <dataProcessors>DataProcessor.Гиперссылка</dataProcessors>
+  <dataProcessors>DataProcessor.УправлениеПанелями</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>

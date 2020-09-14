@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71e7020b-7801-435c-9677-65917d2c02a5">
+  <producedTypes>
+    <objectType typeId="7f87c2c0-a111-4c2f-82cc-019313e00c92" valueTypeId="8cd6290b-56e5-45de-8591-b0671d721548"/>
+    <managerType typeId="7abe168e-5c87-463d-82db-535d59271dbb" valueTypeId="925fa4c9-f129-4f3f-afe7-478b8d13cab9"/>
+  </producedTypes>
+  <name>УправлениеПанелями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление панелями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеПанелями.Form.Форма</defaultForm>
+  <tabularSections uuid="cd992295-561d-4e68-ac7e-61cf0a605ede">
+    <producedTypes>
+      <objectType typeId="f87d1b67-83fe-448f-9f84-9cf6100dbaa0" valueTypeId="3f71cc02-a48a-443f-a67e-0f696339d24b"/>
+      <rowType typeId="b9e5e508-c6c3-494f-a9d5-2d9949f4e2f2" valueTypeId="9e7833b4-c7b9-47ea-8b4c-5dfbfa45e5a0"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="25a4f315-13c2-4aa9-bd52-cb14838d7c1f">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5363bd5a-fb17-4c04-a297-058a4e6a1182">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

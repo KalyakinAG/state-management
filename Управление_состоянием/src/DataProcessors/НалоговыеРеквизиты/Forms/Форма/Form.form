@@ -530,26 +530,6 @@
     </settingsSavedData>
     <main>true</main>
   </attributes>
-  <attributes>
-    <name>НалоговыеРеквизиты_СвернутоеОтображение</name>
-    <title>
-      <key>ru</key>
-      <value>Налоговые реквизиты свернутое отображение</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>НалоговыеРеквизиты_СвернутоеОтображение</segments>
-    </settingsSavedData>
-  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -28,6 +28,16 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f3623893-b75d-4727-b924-3cb262c50702">
+      <name>ОплатаПоставщику</name>
+      <description>Оплата поставщику</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="9bed214b-eba2-429b-9530-5aad2bb4a614">

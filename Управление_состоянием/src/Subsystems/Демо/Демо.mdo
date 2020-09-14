@@ -34,4 +34,6 @@
   <content>DataProcessor.Гиперссылка</content>
   <content>CommonModule.МодельГиперссылка</content>
   <content>CommonForm.НастройкиДинамическогоСписка</content>
+  <content>DataProcessor.УправлениеПанелями</content>
+  <content>CommonModule.МодельУправлениеПанелями</content>
 </mdclass:Subsystem>
