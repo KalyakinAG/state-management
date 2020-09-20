@@ -2446,10 +2446,6 @@
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>
-      <event>ValueChoice</event>
-      <name>ВыборЗначения</name>
-    </handlers>
-    <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
     </handlers>

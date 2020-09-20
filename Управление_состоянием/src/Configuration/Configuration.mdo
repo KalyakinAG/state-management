@@ -411,16 +411,16 @@
   <enums>Enum.ВидыДенежныхСредств</enums>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
+  <dataProcessors>DataProcessor.Гиперссылка</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
-  <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
-  <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
-  <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
-  <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.ЗвездныйРейтинг</dataProcessors>
   <dataProcessors>DataProcessor.ЗвездныйРейтингБанков</dataProcessors>
   <dataProcessors>DataProcessor.НалоговыеРеквизиты</dataProcessors>
   <dataProcessors>DataProcessor.НалоговыеРеквизиты2</dataProcessors>
-  <dataProcessors>DataProcessor.Гиперссылка</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
+  <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
+  <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
+  <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПанелями</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
